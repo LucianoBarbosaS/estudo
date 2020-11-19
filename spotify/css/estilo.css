@@ -88,12 +88,44 @@ nav.navbar-transparente {
 }
 
 .albuns {
-	padding: 10px 0;
+	padding: 10px 0px;
 }
 
 .rotacionar {
 	transform: rotate(30deg);
 	padding-left: 80px;
+}
+
+/* RODA PÉÉ*/
+
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+footer, h4 {
+	color: #919496;
+	font-size: 0.8em;
+	 text-transform: uppercase;
+}
+footer .navebar-nav a {
+	color: white;
+	font-size: 0.8em;
+}
+footer .navebar-nav a:hover {
+	color: #9bf0e1;
+	text-decoration: none;
+}
+footer ul {
+	list-style: none;
+	display: flex;
+  flex-direction: column;
+  padding: 0;
+}
+
+footer ul li {
+	float: right;
+	margin: 0px 5px;
 }
 
 
